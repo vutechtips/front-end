@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài tập</title>
+</head>
+<body>
+    <h2>Câu 1: Bài tập về thẻ a</h2>
+    <a href="https://www.google.com.vn/?hl=vi">Viết dòng này bằng thẻ a. Khi click vào link sang trang google.com </a>
+    <br>
+    <a href="https://www.google.com.vn/?hl=vi" target="_blank">Viết dòng này bằng thẻ a. Khi click vào link sang trang google.com </a>
+    <h2>Câu 2: Bài tập về thẻ img</h2>
+    <p><strong>Yêu cầu: </strong>Tạo thư mục đặt tên imgs, sau đó để hình ảnh bất kì vào thư mục imgs đó. Tiếp theo, chèn hình ảnh đó vào trang web đó bằng cách sử dụng thẻ img. Đường dẫn ảnh là dạng relative (đường dẫn tương đối)</p>
+    <img src="imgs/logo.png" alt="ảnh logo của its me">
+    <h2>Câu 3: Bài tập về thẻ video</h2>
+    <p><b>Yêu cầu:</b> Tạo thư mục đặt tên video bất kỳ vào thư mục video đó. Tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video và thẻ sounrce. <br>
+    Đường dẫn video là dạng relative (đường dẫn tương đối). Đặt kích thước video có width 720 và height bằng 405 (tương đương tỉ lệ 16/9)</p>
+    <video width="720" height="405" controls>
+        <source src="videos/vuvu.mp4">    
+    </video>
+    <h2>Câu 4: Bài tập về thẻ table</h2>
+    <p><strong>Yêu cầu: </strong>Dùng thẻ table, thead, tbody, tr, th, td đã được học để vẽ bảng sau</p> <br>
+    <p><b>Lưu ý:</b> Copy đoạn code sau vào file để có thêm đường viền cho table. Phần này chưa học nhưng thêm vào cho dễ nhìn</p>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+        }
+        th,td{
+            padding: 10px;
+        }
+        
+    </style>
+    <table>
+        <thead>
+        <tr>
+            <th>Tên Sản Phẩm</th>
+            <th>Số Lượng</th>
+            <th>Đơn Giá</th>
+            <th>Thành Tiền</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Giày nam cao cấp</td>
+                <td>2</td>
+                <td>800.000đ</td>
+                <td>1.600.000đ</td>
+            </tr>
+            <tr>
+                <td>Giày nữ cao cấp</td>
+                <td>1</td>
+                <td>500.000đ</td>
+                <td>1.000.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="3"><b>Tạm tính</b></td>
+                <td>2.600.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>Thuế VAT 10%</strong></td>
+                <!-- <td></td>
+                <td></td> -->
+                <td>260.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="3"><b>Tổng tiền</b></td>
+                <!-- <td></td>
+                <td></td> -->
+                <td>2.860.000đ</td>
+            </tr>
+        </tbody>
+    </table>
+        <br>
+        <h2>Câu 5: Bài tập về thẻ ul,ol,li</h2>
+        <p><b>Yêu cầu:</b>Tạo danh sách sau sử dụng thẻ ul,li</p>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+        <p><b>Yêu cầu:</b>Tạo danh sách sau sử dụng thẻ ol,li</p>
+        <ol>
+            <li>Thời trang</li>
+            <li>Công nghệ </li>
+            <li>Đồ điện tử</li>
+            <li>Đồ gia dụng</li>
+        </ol>
+        <p><b>Yêu cầu:</b>Tạo danh sách sau sử dụng thẻ ul,li. Có kiểu chữ la mã viết hoa</p>
+        <ol type="I">
+            <li>Học HTML5</li>
+            <li>Học CSS3</li>
+            <li>Học Bootstrap4</li>
+            <li>Học Javascript</li>
+        </ol>
+    <h2>Câu 6: Bài tập về class và id</h2> 
+    <p><b>Yêu cầu:</b> Viết đoạn văn dưới đây và làm theo nội dung bên trong nó</p>
+    <p class="test-class">viết đoạn văn này sử dụng thẻ div. sau đó thêm class giá trị là "test-class" vào thẻ div này</p>  
+    <p id="test-id">Viết đoạn văn này sử dụng thẻ div. sau đó thêm id có giá trị là "test-id" vào thẻ div này</p> 
+   
+</body>
+</html>
